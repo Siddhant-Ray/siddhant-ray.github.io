@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Siddhant
 middle_name: 
 last_name: Ray
-email: you@example.com
+email: siddhant.r98@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -69,9 +69,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Siddhant-Ray # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: s_17ray # your Twitter handle
 linkedin_username: siddhant-ray # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: sHQFKFUAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -85,7 +85,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Best way to reach out to me is probably by e-mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
