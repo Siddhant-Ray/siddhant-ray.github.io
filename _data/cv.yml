@@ -2,17 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Siddhant Ray
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th February 1998
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+      institution: 
       year: 1905
       description:
         - Description 1.
