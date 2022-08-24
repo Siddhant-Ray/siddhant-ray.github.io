@@ -15,17 +15,17 @@
   contents:
     - title: PhD in Computer Architecture
       institution: Universitat Politècnica de Catalunya, Barcelona, Spain
-      year: 2022-now
+      year: 2022 - Present
       description:
         - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab
     - title: Msc. in Electrical Engineering and Information Technology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 2020-2022
+      year: 2020 - 2022
       description: >
         Thesis : Advancing Packet-Level Traffic Predicions with Transformers
     - title: BTech. in Electronic and Communication Engineering
       institution: Vellore Institute of Technology, Vellore, India
-      year: 2016-2020
+      year: 2016 - 2020
       description: >
         Thesis : Machine learning based cell association for mMTC 5G communication networks
 
@@ -35,7 +35,7 @@
   contents:
     - title: Graduate Research Assitant
       institution: Law, Economics and Data Science Group, ETH Zurich
-      year: Oct 2021-22
+      year: Oct 2021 - 2022
       description:
         - title: Developed and integrated new NLP models for
           contents:
@@ -51,13 +51,13 @@
             - extract actor-narrative linkage for them
     - title: Network Intern
       institution: Capgemini Engineering
-      year: May-July 2019
+      year: May - July 2019
       description:
         - Implemented a K-Shortest path finding algorithm in the ONOS framework.
         - Algorithm was constrained to use speficig subsets of network resources.
     - title: Summer Intern
       institution: BlueStacks
-      year: May-July 2018
+      year: May - July 2018
       description:
         - Implemented a machine learning algorithm to improve user experience.
         - Developed an automation script to generate SVG game cards.
@@ -66,13 +66,13 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/relatio-nlp/relatio">Relatio</a>
-      year: 2022-
+      year: 2022 - Present
       description: Constructing narrative statements from text.
     - title: <a href="https://github.com/nsnam/ns-3-dev-git"> NS-3 </a>
-      year: 2022-
+      year: 2022 - Present
       description: Discrete event simulator for modeling network events.
     - title: <a href="https://github.com/Lightning-AI/lightning"> PyTorch Lightning </a>
-      year: 2022-
+      year: 2022 - Present
       description: Python wrapper for scaling neural network architectures.
 
 
