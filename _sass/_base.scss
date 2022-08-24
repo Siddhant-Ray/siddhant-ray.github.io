@@ -303,6 +303,8 @@ footer.sticky-bottom {
     
     .list-group-item {
       background-color: inherit;
+      margin: 0px;
+      margin-bottom: 0px;  
 
       .badge {
         color: var(--global-card-bg-color) !important;

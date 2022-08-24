@@ -6,81 +6,114 @@
     - name: Date of Birth
       value: 17th February 1998
     - name: Languages
-      value: English
+      value: English, Hindi, German
+    - name: Nationality
+      value: Indian
 
-- title: Education (work in progress)
+- title: Education 
   type: time_table
   contents:
-    - title: PhD
-      institution: 
+    - title: PhD in Computer Architecture
+      institution: Universitat Politècnica de Catalunya, Barcelona, Spain
       year: 2022-
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab 
     - title: Msc. in Electrical Engineering and Information Technology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 2020-22
-      description:
-        - Description 1.
-        - Description 2.
+      description: >
+        Thesis : Advancing Packet-Level Traffic Predicions with Transformers
+    - title: BTech. in Electronic and Communication Engineering
+      institution: Vellore Institute of Technology, Vellore, India
+      year: 2016-20
+      description: >
+        Thesis : Machine learning based cell association for mMTC 5G communication networks
+        
 
-- title: Experience (work in progress)
+- title: Experience
   type: time_table
   contents:
-    - title: blank
-      institution: blank
-      year: blank
+    - title: Graduate Research Assitant 
+      institution: Law, Economics and Data Science Group, ETH Zurich
+      year: Oct 2021-22
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Developed and integrated new NLP models for 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: blank
-      institution: blank
-      year: blank
+            - sentence simplification on political manifestos
+            - paraphrase detection on congressional records  
+        - title: Created and used automation tools for 
+          contents:
+            - annotating copora using the Relatio package
+            - building cause-action dependency graphs
+        - title: Created an NLP model using RoBERTa and Climate-Bert to
+          contents:
+            - analyse discourse in meat-industry policies 
+            - extract actor-narrative linkage for them 
+    - title: Network Intern 
+      institution: Capgemini Engineering
+      year: May-July 2019
       description:
-        - Description 1.
-        - Description 2.
-
-    
+        - Implemented a K-Shortest path finding algorithm in the ONOS framework.
+        - Algorithm was constrained to use speficig subsets of network resources.
+    - title: Summer Intern 
+      institution: BlueStacks
+      year: May-July 2018
+      description:
+        - Implemented a machine learning algorithm to improve user experience.
+        - Developed an automation script to generate SVG game cards.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">base</a>
-      year: blank
-      description: blank
+    - title: <a href="https://github.com/relatio-nlp/relatio">Relatio</a>
+      year: 2022-
+      description: Constructing narrative statements from text.
+    - title: <a href="https://github.com/nsnam/ns-3-dev-git"> NS-3 </a>
+      year: 2022-
+      description: Discrete event simulator for modeling network events.
+    - title: <a href="https://github.com/Lightning-AI/lightning"> PyTorch Lightning </a>
+      year: 2022-
+      description: Python wrapper for scaling neural network architectures.
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: blank
+    - year: 2022
       items: 
-        - blank
-        - blank
-    - year: blank
+        - Winner at Datathon, ETH Zurich (Microsoft Challenge)
+    - year: 2020
       items: 
-        - blank
-
+        - Department's Best Outgoing Student, VIT Vellore (SENSE Department)
+    - year: 2019
+      items: 
+        - Runner-up at VIT Hack, VIT Vellore (Education Track)
+    - year: 2016-19
+      items:
+        - Merit Scholarship for Outstanding Academic Performance
+    
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Networking
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Distributed systems for increased efficiency in serving requests.
+        - Learning fundamental network dynamics from packet traces.
+        - Programmable networks for network function acceleration.
+        - Security in computer networks.
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Machine learning for improving computer systems.
+        - NLP applications, improving scaling and language understanding.
+        - Learning theory and mathematical data science.
+        - Machine learning on graphs, GNNs as distributed training.
+    - title: Hardware accelerators
+      items: 
+        - FPGA design for application specific accelaration.
+        - Accelerators for deep learning training.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Cyclying, Bouldering, Music
+    - <u>Social work:</u> Teaching activities at NGOs
