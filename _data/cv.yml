@@ -15,17 +15,17 @@
   contents:
     - title: PhD in Computer Architecture
       institution: Universitat Politècnica de Catalunya, Barcelona, Spain
-      year: 2022-
+      year: 2022-now
       description:
         - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab
     - title: Msc. in Electrical Engineering and Information Technology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 2020-22
+      year: 2020-2022
       description: >
         Thesis : Advancing Packet-Level Traffic Predicions with Transformers
     - title: BTech. in Electronic and Communication Engineering
       institution: Vellore Institute of Technology, Vellore, India
-      year: 2016-20
+      year: 2016-2020
       description: >
         Thesis : Machine learning based cell association for mMTC 5G communication networks
 
