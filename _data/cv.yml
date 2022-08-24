@@ -54,7 +54,7 @@
       year: May - July 2019
       description:
         - Implemented a K-Shortest path finding algorithm in the ONOS framework.
-        - Algorithm was constrained to use speficig subsets of network resources.
+        - Algorithm was constrained to use specific subsets of network resources.
     - title: Summer Intern
       institution: BlueStacks
       year: May - July 2018
@@ -88,7 +88,7 @@
     - year: 2019
       items:
         - Runner-up at VIT Hack, VIT Vellore (Education Track)
-    - year: 2016-19
+    - year: 2016-2019
       items:
         - Merit Scholarship for Outstanding Academic Performance
 
