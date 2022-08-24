@@ -10,14 +10,14 @@
     - name: Nationality
       value: Indian
 
-- title: Education 
+- title: Education
   type: time_table
   contents:
     - title: PhD in Computer Architecture
       institution: Universitat Politècnica de Catalunya, Barcelona, Spain
       year: 2022-
       description:
-        - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab 
+        - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab
     - title: Msc. in Electrical Engineering and Information Technology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 2020-22
@@ -28,34 +28,34 @@
       year: 2016-20
       description: >
         Thesis : Machine learning based cell association for mMTC 5G communication networks
-        
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Research Assitant 
+    - title: Graduate Research Assitant
       institution: Law, Economics and Data Science Group, ETH Zurich
       year: Oct 2021-22
       description:
-        - title: Developed and integrated new NLP models for 
+        - title: Developed and integrated new NLP models for
           contents:
             - sentence simplification on political manifestos
-            - paraphrase detection on congressional records  
-        - title: Created and used automation tools for 
+            - paraphrase detection on congressional records
+        - title: Created and used automation tools for
           contents:
             - annotating copora using the Relatio package
             - building cause-action dependency graphs
         - title: Created an NLP model using RoBERTa and Climate-Bert to
           contents:
-            - analyse discourse in meat-industry policies 
-            - extract actor-narrative linkage for them 
-    - title: Network Intern 
+            - analyse discourse in meat-industry policies
+            - extract actor-narrative linkage for them
+    - title: Network Intern
       institution: Capgemini Engineering
       year: May-July 2019
       description:
         - Implemented a K-Shortest path finding algorithm in the ONOS framework.
         - Algorithm was constrained to use speficig subsets of network resources.
-    - title: Summer Intern 
+    - title: Summer Intern
       institution: BlueStacks
       year: May-July 2018
       description:
@@ -80,23 +80,23 @@
   type: time_table
   contents:
     - year: 2022
-      items: 
+      items:
         - Winner at Datathon, ETH Zurich (Microsoft Challenge)
     - year: 2020
-      items: 
+      items:
         - Department's Best Outgoing Student, VIT Vellore (SENSE Department)
     - year: 2019
-      items: 
+      items:
         - Runner-up at VIT Hack, VIT Vellore (Education Track)
     - year: 2016-19
       items:
         - Merit Scholarship for Outstanding Academic Performance
-    
+
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Networking
-      items: 
+      items:
         - Distributed systems for increased efficiency in serving requests.
         - Learning fundamental network dynamics from packet traces.
         - Programmable networks for network function acceleration.
@@ -108,7 +108,7 @@
         - Learning theory and mathematical data science.
         - Machine learning on graphs, GNNs as distributed training.
     - title: Hardware accelerators
-      items: 
+      items:
         - FPGA design for application specific accelaration.
         - Accelerators for deep learning training.
 
