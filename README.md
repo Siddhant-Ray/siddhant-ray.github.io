@@ -4,9 +4,7 @@
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://siddhant-ray.github.io/)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star!
-
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+If you like the theme, give it a star! This repository is a fork of [`al-folio`](https://github.com/alshedivat/al-folio) with some cool modifications.
 
 ## Lighthouse PageSpeed Insights
 
@@ -21,7 +19,7 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 ### Installation
 
-For a hands-on walkthrough of al-folio installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
+For a hands-on walkthrough of `al-folio` installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
 
 ---
 
@@ -74,7 +72,7 @@ $ ./bin/docker_run.sh
 
 #### Local Setup (Standard)
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:Siddhant-Ray/Siddhant-Ray.github.io` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -91,7 +89,7 @@ After you are done, **commit** your final changes.
 #### Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
-Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
+The site will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
 1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
@@ -231,8 +229,6 @@ Your publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
-
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
 In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
@@ -298,8 +294,6 @@ The theme comes with two default collections: `news` and `projects`.
 Items from the `news` collection are automatically displayed on the home page.
 Items from the `projects` collection are displayed on a responsive grid on projects page.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
-
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
 To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
@@ -307,42 +301,30 @@ To do this, edit the collections in the `_config.yml` file, create a correspondi
 
 ### Layouts
 
-**al-folio** comes with stylish layouts for pages and blog posts.
+**This repo** comes with stylish layouts for pages and blog posts.
 
 #### The iconic style of Distill
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2018/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
-
 For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2018/distill/).
 
 #### Full support for math & code
 
-**al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
+**This repo** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
 
-<p align="center">
-<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/math-screenshot.png" width=400></a>
-<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/code-screenshot.png" width=400></a>
-</p>
 
 #### Photos
 
 Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/).
 Easily create beautiful grids within your blog posts and project pages:
 
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
-  </a>
-</p>
-
 ---
 
 ### Other features
 
 #### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+**This repo** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
@@ -389,7 +371,7 @@ E.g. assuming your website mountpoint is the main folder, you can type `youruser
 
 ## Contributing
 
-Contributions to al-folio are very welcome!
+Contributions to this repository are very welcome!
 Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
