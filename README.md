@@ -19,13 +19,13 @@ Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/0
 
 ### Installation
 
-For a hands-on walkthrough of `al-folio` installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
+For a hands-on walkthrough of base `al-folio` installation, check out [this cool video tutorial](https://www.youtube.com/watch?v=g6AJ9qPPoyc) by one of the community members! 🎬 🍿
 
 ---
 
 #### Local setup using Docker (Recommended on Windows)
 
-You need to take the following steps to get `al-folio` up and running in your local machine:
+You need to take the following steps to get this portfolio up and running in your local machine:
 
 - First, [install docker](https://docs.docker.com/get-docker/)
 - Then, clone this repository to your machine:
@@ -49,7 +49,7 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
-First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
+First, download the necessary modules and install them into the `Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
 
 
 ```bash
