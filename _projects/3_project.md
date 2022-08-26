@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FRR - P4 Integrated Super - Node
-description: Linux control planes with programmble dataplanes. 
+description: Linux control planes with programmble P4 dataplanes. 
 img: assets/img/supernode.jpg
 importance: 3
 category: Research
