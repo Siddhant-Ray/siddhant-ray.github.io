@@ -2,7 +2,7 @@
 layout: page
 title: Multi-Label News Classification
 description: Text transformer for hierarchical label classification.
-img: assets/img/model.jpg
+img: assets/img/model.webp
 importance: 2
 category: Research
 ---

@@ -71,7 +71,7 @@
     - title: <a href="https://github.com/nsnam/ns-3-dev-git"> NS-3 </a>
       year: 2022 - Present
       description: Discrete event simulator for modeling network events.
-    - title: <a href="https://github.com/Lightning-AI/lightning"> PyTorch Lightning </a>
+    - title: <a href="https://github.com/Lightning-AI/lightning"> Lightning </a>
       year: 2022 - Present
       description: Python wrapper for scaling neural network architectures.
 

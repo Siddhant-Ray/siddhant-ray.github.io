@@ -2,7 +2,7 @@
 layout: page
 title: Network Traffic Transformer
 description: Transformer architecture to learn network dynamics.
-img: assets/img/architecture_ntt.jpg
+img: assets/img/architecture_ntt.webp
 importance: 1
 category: Research
 ---

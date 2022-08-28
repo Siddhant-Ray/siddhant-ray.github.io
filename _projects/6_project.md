@@ -4,7 +4,7 @@ title: Maximizing Flows in Cross Traffic Networks
 description: Programmable networks to minimize packet drops.
 img:
 importance: 3
-category: Course
+category: Misc.
 ---
 
 <p align="justify"> This was a course project for the course Advanced Topics in Communication Networks at ETH Zurich, in Autumn 2020. The primary objective was to deliver as much traffic (i.e. maximize the number of successfully delivered packets) as possible for different traffic patterns and failures. FLows could belong to different classes of traffic, which had varying levels of priority.  Flows were sent in a non-deterministic fashion, however the total numnber of flows for each traffic class was fixed. During the network operation, a given number of links would fail pseudo-randomly. </p>

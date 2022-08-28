@@ -4,7 +4,7 @@ title: Automated Certificate Management Environment
 description: Self-contained functional ACME client in Python.
 img:
 importance: 3
-category: Course
+category: Misc.
 ---
 
 <p align="justify"> This was a course project for the course Network Security at ETH Zurich, in Autumn 2021, where we had to implement a functional ACME client. The <a href="https://tools.ietf.org/html/rfc8555"> Automatic Certificate Management Environment (ACME) protocol </a> aims to facilitate the automation of certificate issuance by creating a standardized and machine-friendly protocol for certificate management. </p>
