@@ -11,7 +11,7 @@ category: Research
 
 <p align="justify"> This project presents a new Transformer architecture adapted for the networking domain, the Network Traffic Transformer (NTT), which is designed to learn network dynamics from packet traces. We pre-train our NTT to learn fundamental network dynamics and then, leverage this learnt behaviour to fine-tune to specific network applications in a quick and efficient manner. By learning such dynamics in the network, the NTT can then be used to make more network-aware decisions across applications, make improvements to the same and make the networks of tomorrow, more efficient and reliable. </p>
 
-Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/Packet-Transformer"> Code </a>
+Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/Network-Traffic-Transformer"> Code </a>
 
 
 
