@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-01 16:11:00-0400
+date: 2022-09-5 16:11:00-0400
 inline: true
 ---
 
-Finished MSc. in Electrical Engineering and Information Technology at ETH Zurich.
+Paper titled <b> A new hope for network model generalization</b> has been accepted for publication at ACM HotNets’22.
