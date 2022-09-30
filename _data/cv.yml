@@ -49,20 +49,20 @@
           contents:
             - analyse discourse in meat-industry policies
             - extract actor-narrative linkage for them
-    - title: Network Intern
+    - title: Software Development Intern
       institution: Capgemini Engineering
       year: May - July 2019
       description:
         - Implemented a K-Shortest path finding algorithm in the ONOS framework.
         - Algorithm was constrained to use specific subsets of network resources.
-    - title: Summer Intern
+    - title: Software Development Intern
       institution: BlueStacks
       year: May - July 2018
       description:
         - Implemented a machine learning algorithm to improve user experience.
         - Developed an automation script to generate SVG game cards.
 
-- title: Open Source Projects
+- title: Contributions to Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/relatio-nlp/relatio">Relatio</a>
@@ -97,7 +97,7 @@
   contents:
     - title: Networking
       items:
-        - Distributed systems for increased efficiency in serving requests.
+        - Distributed systems, cloud and edge computing for efficiently serving requests.
         - Learning fundamental network dynamics from packet traces.
         - Programmable networks for network function acceleration.
         - Security in computer networks.
