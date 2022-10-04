@@ -13,11 +13,6 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Architecture
-      institution: Universitat Politècnica de Catalunya, Barcelona, Spain
-      year: 2022 - Present
-      description:
-        - Doctoral researcher at the <a href="https://www.craax.upc.edu/"> CRAAX </a> - Advanced Network Architecture Lab
     - title: Msc. in Electrical Engineering and Information Technology
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 2020 - 2022
@@ -33,6 +28,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Researcher
+      institution: Advanced Networks Architecture Lab, UPC Barcelona
+      year: Sep 2022 - Present
+      description:
+        - title: Working on data-driven and machine learning based
+          contents: 
+            - resource management for cloud-edge computing systems.
     - title: Graduate Research Assistant
       institution: Law, Economics and Data Science Group, ETH Zurich
       year: Oct 2021 - 2022
