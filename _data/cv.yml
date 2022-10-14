@@ -111,7 +111,7 @@
         - Machine learning on graphs, GNNs as distributed training.
     - title: Hardware accelerators
       items:
-        - FPGA design for application specific accelaration.
+        - FPGA design for application specific acceleration.
         - Accelerators for deep learning training.
 
 - title: Other Interests
