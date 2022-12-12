@@ -3,16 +3,27 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{dietmuller2022new,
-  title={A New Hope for Network Model Generalization},
-  author={Dietm{\"u}ller, Alexander and Ray, Siddhant and Jacob, Romain and Vanbever, Laurent},
-  journal={To appear at ACM HotNets},
-  year={2022},
-  selected={true},
-  abstract={Generalizing machine learning (ML) models for network traffic dynamics tends to be considered a lost cause. Hence, for every new task, we often resolve to design new models and train them on model-specific datasets collected, whenever possible, in an environment mimicking the model's deployment. This approach essentially gives up on generalization. Yet, an ML architecture called_Transformer_ has enabled previously unimaginable generalization in other domains. Nowadays, one can download a model pre-trained on massive datasets and only fine-tune it for a specific task and context with comparatively little time and data. These fine-tuned models are now state-of-the-art for many benchmarks. We believe this progress could translate to networking and propose a Network Traffic Transformer (NTT), a transformer adapted to learn network dynamics from packet traces. Our initial results are promising: NTT seems able to generalize to new prediction tasks and contexts. This study suggests there is still hope for generalization, though it calls for a lot of future research.},
-  preview={dl.webp},
-  code={https://github.com/Siddhant-Ray/Network-Traffic-Transformer/tree/ACM-HotNets},
-  arxiv={2207.05843}
+@inproceedings{dietmuller2022new,
+author = {Dietm\"{u}ller, Alexander and Ray, Siddhant and Jacob, Romain and Vanbever, Laurent},
+title = {A New Hope for Network Model Generalization},
+year = {2022},
+isbn = {9781450398992},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3563766.3564104},
+doi = {10.1145/3563766.3564104},
+abstract = {Generalizing machine learning (ML) models for network traffic dynamics tends to be considered a lost cause. Hence for every new task, we design new models and train them on model-specific datasets closely mimicking the deployment environments. Yet, an ML architecture called Transformer has enabled previously unimaginable generalization in other domains. Nowadays, one can download a model pre-trained on massive datasets and only fine-tune it for a specific task and context with comparatively little time and data. These fine-tuned models are now state-of-the-art for many benchmarks.We believe this progress could translate to networking and propose a Network Traffic Transformer (NTT), a transformer adapted to learn network dynamics from packet traces. Our initial results are promising: NTT seems able to generalize to new prediction tasks and environments. This study suggests there is still hope for generalization through future research.},
+booktitle = {Proceedings of the 21st ACM Workshop on Hot Topics in Networks},
+pages = {152–159},
+numpages = {8},
+keywords = {packet-level modeling, transformer},
+location = {Austin, Texas},
+series = {HotNets '22},
+selected={true},
+abstract={Generalizing machine learning (ML) models for network traffic dynamics tends to be considered a lost cause. Hence, for every new task, we often resolve to design new models and train them on model-specific datasets collected, whenever possible, in an environment mimicking the model's deployment. This approach essentially gives up on generalization. Yet, an ML architecture called_Transformer_ has enabled previously unimaginable generalization in other domains. Nowadays, one can download a model pre-trained on massive datasets and only fine-tune it for a specific task and context with comparatively little time and data. These fine-tuned models are now state-of-the-art for many benchmarks. We believe this progress could translate to networking and propose a Network Traffic Transformer (NTT), a transformer adapted to learn network dynamics from packet traces. Our initial results are promising: NTT seems able to generalize to new prediction tasks and contexts. This study suggests there is still hope for generalization, though it calls for a lot of future research.},
+preview={dl.webp},
+code={https://github.com/Siddhant-Ray/Network-Traffic-Transformer/tree/ACM-HotNets},
+arxiv={2207.05843}
 }
 
 @article{ray2020machine,
@@ -28,4 +39,25 @@
   publisher={Inderscience Publishers (IEL)},
   preview={cell.webp},
   code={https://github.com/Siddhant-Ray/Machine-Learning-Based-Cell-Association}
+}
+
+@article{raysdn2019,
+author = {Ray, Siddhant},
+year = {2019},
+title = {A Constraint Based K-Shortest Path Searching Algorithm for Software Defined Networking},
+doi = {10.13140/RG.2.2.16803.60967},
+journal = {non-peer reviewed, pdf on ResearchGate},
+preview = {ksp.JPG},
+abstract = {Software Defined Networking (SDN) is a concept in the area of computer networks in which the control plane and data plane of traditional computer networks are separated as opposed to the mechanism in conventional routers and switches. SDN aims to provide a central control mechanism in the network through a controller known as the SDN Controller. The Controller then makes use of various southbound Application Programming Interfaces (APIs) to connect to the physical switches located on the network and pass on the control information, which used to program the data plane. SDN Controller also exposes several northbound APIs to connect to the applications which can leverage the controller to orchestrate the network. The controller used with regard to this paper is the Open Network Operating System (ONOS), on which the algorithm in question is to be deployed. ONOS provides several APIs which is leveraged to connect the application to the network devices. The typical network path between any two endpoints is a shortest path fulfilling a set of constraints. The algorithm developed here is for optimal K-Shortest path searching in a given network satisfying specified constraints, controlled by ONOS.}
+}
+
+
+@article{rayml2018,
+author = {Ray, Siddhant},
+year = {2018},
+title = {A Comparative Analysis and Testing of Supervised Machine Learning Algorithms},
+doi = {10.13140/RG.2.2.16803.60967},
+journal = {non-peer reviewed, pdf on ResearchGate},
+preview = {ml.png},
+abstract = {Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves. The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust actions accordingly. The scope of this paper is to study and compare various supervised learning models and make an attempt to classify the best performing one based on accuracy, precision and recall score metrics.}
 }
