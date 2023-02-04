@@ -99,7 +99,7 @@
   contents:
     - title: Networking
       items:
-        - Distributed systems, cloud and edge computing for efficiently serving requests.
+        - Efficient server models in cloud and edge computing.
         - Learning fundamental network dynamics from packet traces.
         - Programmable networks for network function acceleration.
         - Security in computer networks.

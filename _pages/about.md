@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p align="justify">
-Engineer/scientist with a desire to apply the concepts learnt to develop real-time, scalable solutions. I study Machine Learning and Deep Learning algorithms with an aim to use them for greater efficiency in computer networks and distributed systems but also on any learnable problem in general. </p>
+Engineer/scientist with an aim to use explore research opportunities and develop efficient, real-time and scalable solutions. I study machine earning and deep learning algorithms with an aim to use them for greater efficiency in computer networks and distributed systems but also on any learnable problem in general. </p>
 
-<p align="justify">I love exploring new areas of research in Software Defined Networking, programmable networks and cloud computing. Lately, I have also been working on applying NLP methods to areas in social science such as narrative extraction in political policies, topic modelling in parliamentary speeches, Congressional records and more.</p>
+<p align="justify">I love exploring new advances in Software Defined Networking, programmable networks and cloud computing. Lately, I have also been working on applying NLP methods to areas in social science, such as narrative extraction in political policies, topic modelling in parliamentary speeches, intent analysis in Congressional records and more.</p>
 
 <p align="justify"> I'm always looking out for research and development opportunities in these fields. </p>
 

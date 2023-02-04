@@ -60,8 +60,8 @@ let initTheme = (theme) => {
   setTheme(theme);
 }
 
-// Override the local storage theme with "light"
-localStorage.setItem("theme", "light");
 initTheme(localStorage.getItem("theme"));
+
+
 
 
