@@ -8,11 +8,7 @@ profile:
   align: right
   image: pp.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p align="justify"> CRAAX Lab, 2nd floor
-     Rambla Exposicio, 61-69,
-     Vilanova i la Geltru
-     Barcelona 08800 </p>
+  address:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
