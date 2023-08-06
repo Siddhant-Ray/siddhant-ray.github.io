@@ -6,8 +6,8 @@ subtitle:
 
 profile:
   align: right
-  image: pp.jpg
-  image_circular: false # crops the image to make it circular
+  image: newpp.jpg
+  image_circular: true # crops the image to make it circular
   address:
 
 news: true  # includes a list of news items
