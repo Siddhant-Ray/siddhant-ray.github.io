@@ -4,4 +4,4 @@ date: 2022-09-15 16:11:00-0400
 inline: true
 ---
 
-Joining the CRAAX Lab at UPC Barcelona as a Researcher.
+Joined the Advanced Network Architectures Lab at UPC Barcelona as a Researcher.
