@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Siddhant-Ray # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: s_17ray # your Twitter handle
+twitter_username: siddhantrayyy # your Twitter handle
 linkedin_username: siddhant-ray # your LinkedIn user name
 scholar_userid: sHQFKFUAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -76,7 +76,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-blogger_url: https://theunforgivenwanderer.wordpress.com/ # your blogger URL
+blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
@@ -117,8 +117,8 @@ disqus_shortname: sray # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: Medium
+    rss_url: https://medium.com/feed/@siddhantray
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -284,9 +284,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)

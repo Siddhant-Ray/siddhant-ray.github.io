@@ -15,9 +15,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p align="justify">
-I am a first year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I primarily study machine earning and deep learning algorithms with an aim to use them for greater efficiency in computer networks and distributed systems. </p>
+I am a first year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I am broadly interested in machine learning methods for performance improvement in computer networks. </p> 
 
-<p align="justify">I have worked on research advances in Software Defined Networking, programmable networks and cloud computing in the past. Additionally, I have also spent some time working on applying NLP methods to areas of social science, such as narrative extraction in political policies, topic modelling in parliamentary speeches and intent analysis in Congressional records.</p>
+<p align="justify"> Currently I am investigating how foundational models can be built for network data to learn general network dynamics, and how such models can be shared across specific applications or tasks. I have worked on advances in Software Defined Networking, programmable networks and cloud computing in the past. </p>
+
+<p> Additionally I have spent some time working on developing NLP techniques to analyse politcal corpora. </p>
 
 <p align="justify"> I'm fortunate to be additionally supported by the <a href ="https://news.uchicago.edu/story/205-million-gifts-support-expansion-initiatives-computer-science"> Liew Family Graduate Fellowship</a>. Prior to starting my PhD, I earned my MSc in Electrical Engineering and Information Technology at <a href ="https://ee.ethz.ch/studies/master-s-programmes/main-master.html"> ETH Zurich</a> and my B.Tech in Electronics and Communication Engineering at <a href="https://vit.ac.in/schools/school-of-electronics-engineering">VIT Vellore</a>. </p>
 
