@@ -1,4 +1,8 @@
-"HotNets":
+"NSDI24":
+  url: https://www.usenix.org/conference/nsdi24
+  color: "#d87c5a"
+
+"HotNets22":
   url: https://conferences.sigcomm.org/hotnets/2022/index.html
   color: "#d87c5a"
 
