@@ -21,6 +21,4 @@ nav_order: 1
 
 {% bibliography -f preprints %}
 
-
-
 </div>
