@@ -21,4 +21,10 @@ nav_order: 1
 
 {% bibliography -f preprints %}
 
+<h1>posters</h1>
+
+{% bibliography -f posters %}
+
 </div>
+
+
