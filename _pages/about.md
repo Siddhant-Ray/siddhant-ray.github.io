@@ -19,7 +19,7 @@ I am a second year PhD student in Computer Science at the <a href = "https://cs.
 
 <p align="justify"> Currently I work on using <i> Transformer models </i> for per-packet latency prediction to <i> improve queue selection and reduce tail-latency </i> for latency sensitive applications. I am also working on <i> joint optimizations in RAG </i> for quality and latency with <i> query level configuration selection. </i> </p>
 
-<p align="justify"> In the past, I have worked on advances in Software Defined Networking, programmable networks and cloud computing. Additionally I have spent some time working on developing NLP techniques to analyse politcal corpora. </p>
+<p align="justify"> In the past, I have worked on advances in Software Defined Networking, programmable networks and cloud computing. Additionally I have spent some time working on developing NLP techniques to analyse political corpora. </p>
 
 <p align="justify"> I'm fortunate to be additionally supported by the <a href ="https://news.uchicago.edu/story/205-million-gifts-support-expansion-initiatives-computer-science"> Liew Family Graduate Fellowship</a>. Prior to starting my PhD, I earned my MSc in Electrical Engineering and Information Technology at <a href ="https://ee.ethz.ch/studies/master-s-programmes/main-master.html"> ETH Zurich</a> and my B.Tech in Electronics and Communication Engineering at <a href="https://vit.ac.in/schools/school-of-electronics-engineering">VIT Vellore</a>. </p>
 
