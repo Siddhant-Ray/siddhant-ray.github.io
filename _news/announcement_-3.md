@@ -5,4 +5,4 @@ inline: true
 ---
 
 RAGServe: Fast Quality-Aware RAG Systems with Configuration Adaptation
-on <a href="https://arxiv.org/abs/2410.06112v1"> ArXiv. </a>
+on <a href="https://www.arxiv.org/abs/2412.10543"> ArXiv. </a>
