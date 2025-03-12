@@ -3,7 +3,7 @@ github_users:
 
 github_repos:
   - LMCache/LMCache
-  - Siddhant-Ray/FRR-P4-Super-Node-Prototype
+  - vllm-project/production-stack
   - relatio-nlp/relatio
   - donbright/rust-lang-cheat-sheet
   - nsnam/ns-3-dev-git
