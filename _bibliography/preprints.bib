@@ -14,37 +14,6 @@
     arxiv={2410.06112},
 }
 
-@misc{yao2024cacheblendfastlargelanguage,
-      title={Cache{B}lend: {F}ast {L}arge {L}anguage {M}odel {S}erving for {R}{A}{G} with {C}ached {K}nowledge {F}usion}, 
-      author={Jiayi Yao and Hanchen Li and Yuhan Liu and Siddhant Ray and Yihua Cheng and Qizheng Zhang and Kuntai Du and Shan Lu and Junchen Jiang},
-      year={2024},
-      eprint={2405.16444},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      note={To appear at EuroSys 2025},
-      url={https://arxiv.org/abs/2405.16444}, 
-      bibtex_show={true},
-      abbr={arXiv},
-      arxiv={2405.16444},
-      abstract={Large language models (LLMs) often incorporate multiple text chunks in their inputs to provide 
-      the necessary contexts. To speed up the prefill of the long LLM inputs, one can pre-compute the KV cache 
-      of a text and re-use the KV cache when the context is reused as the prefix of another LLM input. However,
-       the reused text chunks are not always the input prefix, and when they are not, their precomputed KV caches
-        cannot be directly used since they ignore the text's cross-attention with the preceding text in the LLM 
-        input. Thus, the benefits of reusing KV caches remain largely unrealized. This paper tackles just one 
-        question: when an LLM input contains multiple text chunks, how to quickly combine their precomputed KV 
-        caches in order to achieve the same generation quality as the expensive full prefill (i.e., without reusing
-         KV cache)? We present CacheBlend, a scheme that reuses the pre-computed KV caches, regardless prefix or not,
-          and selectively recomputes the KV values of a small subset of tokens to partially update each reused KV 
-          cache. In the meantime,the small extra delay for recomputing some tokens can be pipelined with the retrieval
-       of KV caches within the same job,allowing CacheBlend to store KV caches in slower devices with more storage 
-       capacity while retrieving them without increasing the inference delay. By comparing CacheBlend with the 
-       state-of-the-art KV cache reusing schemes on three open-source LLMs of various sizes and four popular
-        benchmark datasets of different tasks, we show that CacheBlend reduces time-to-first-token (TTFT) by 2.2-3.3X
-         and increases the inference throughput by 2.8-5X, compared with full KV recompute, without compromising 
-         generation quality or incurring more storage cost.},
-}
-
 @misc{ray2024ragservefastqualityawarerag,
       title={{RAGS}erve: {F}ast {Q}uality-{A}ware {RAG} {S}ystems with {C}onfiguration {A}daptation}, 
       author={Siddhant Ray and Rui Pan and Zhuohan Gu and Kuntai Du and Ganesh Ananthanarayanan and Ravi Netravali and Junchen Jiang},
