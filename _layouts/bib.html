@@ -153,8 +153,8 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
-          {%- if entry.blog %}
-            <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+          {%- if entry.award_name %}
+            <a href="https://2025.eurosys.org/awards.html" class="btn btn-sm z-depth-0" style="color: white; background-color: red; font-weight: bold;" role="button">{{ entry.award_name }}</a>
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
