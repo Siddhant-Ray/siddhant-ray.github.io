@@ -29,6 +29,9 @@
 "EuroSys":
   url: https://dl.acm.org/doi/proceedings/10.1145/3689031
   color: "#d87c5a"
-  
+
+"SOSP (to appear)":
+  url: https://sigops.org/s/conferences/sosp/2025/
+  color: "#d87c5a"
 
 

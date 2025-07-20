@@ -106,4 +106,18 @@ abstract={To render each generated token in real-time for users, the Large Langu
 For this emerging token streaming problem in LLM Chatbots that differs from previous multimedia and text applications, we propose a novel transmission scheme, called Eloquent, which puts newly generated tokens as well as currently unacknowledged tokens in the next outgoing packet. This ensures that each packet contains some new tokens and, in the meantime, is independently rendered when received, avoiding the aforementioned stalls caused by missing packets. Through simulation under various networks, we show Eloquent reduces stall ratio (proportion of token rendering wait time) by 71.0% compared to the retransmission method commonly used by real chatbot applications and by 31.6% compared to the baseline packet duplication scheme. By tailoring Eloquent to fit the token-by-token generation of LLM, we enable the Chatbots to respond like an eloquent speaker for users to better enjoy pervasive AI.},
 }
 
+@misc{ray2024ragservefastqualityawarerag,
+      title={{{METIS}: {F}ast {Q}uality-{A}ware {RAG} {S}ystems with {C}onfiguration {A}daptation}}, 
+      author={Siddhant Ray and Rui Pan and Zhuohan Gu and Kuntai Du and Shaoting Feng and Ganesh Ananthanarayanan and Ravi Netravali and Junchen Jiang},
+      year={2025},
+      eprint={2412.10543},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.10543}, 
+      bibtex_show={true},
+      abbr={SOSP (to appear)},
+      arxiv={2412.10543},
+      abstract={RAG (Retrieval Augmented Generation) allows LLMs (large language models) to generate better responses with external knowledge, but using more external knowledge often improves generation quality at the expense of response delay. Prior work either reduces the response delay (through better scheduling of RAG queries) or strives to maximize quality (which involves tuning the RAG workflow), but they fall short in optimizing the tradeoff between the delay and quality of RAG responses. This paper presents METIS, the first RAG system that jointly schedules queries and adapts the key RAG configurations of each query, such as the number of retrieved text chunks and synthesis methods, in order to balance quality optimization and response delay reduction. Using 4 popular RAG-QA datasets, we show that compared with the state-of-the-art RAG optimization schemes, METIS reduces the generation latency by 1.64−2.54× without sacrificing generation quality.},
+}
+
 
