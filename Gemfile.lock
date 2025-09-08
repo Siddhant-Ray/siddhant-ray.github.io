@@ -110,7 +110,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
-    jekyll-minifier (0.2.1)
+    jekyll-minifier (0.2.2)
       cssminify2 (~> 2.1.0)
       htmlcompressor (~> 0.4)
       jekyll (~> 4.0)
