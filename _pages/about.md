@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p align="justify">
-I am a second year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I am interested in machine learning methods for performance improvement in computer networks and efficient serving systems for Large Language Models. </p> 
+I am a third year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I am interested in machine learning methods for performance improvement in computer networks and efficient serving systems for Large Language Models. </p> 
 
 <p align="justify"> Currently I work on <i> joint optimizations </i> in Retrieval-Augmented-Generation (RAG) systems on quality and delay with <i> query level configuration selection and resource scheduling </i>. I also work on using <i> Transformer models </i> for per-packet latency prediction to <i> improve queue selection and reduce tail-latency </i> for latency sensitive applications. </p>
 
