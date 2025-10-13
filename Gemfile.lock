@@ -21,7 +21,7 @@ GEM
       latex-decode (~> 0.0)
       logger (~> 1.7)
       racc (~> 1.7)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.1)
     citeproc (1.1.0)
       date
       forwardable
@@ -76,7 +76,7 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
-    httparty (0.23.1)
+    httparty (0.23.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -160,7 +160,7 @@ GEM
     mini_racer (0.19.0)
       libv8-node (~> 24.1.0.0)
     minitest (5.25.4)
-    multi_xml (0.7.1)
+    multi_xml (0.7.2)
       bigdecimal (~> 3.1)
     namae (1.2.0)
       racc (~> 1.7)
