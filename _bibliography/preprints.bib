@@ -1,15 +1,11 @@
-@misc{ray2024swiftqueueoptimizinglowlatencyapplications,
-      title={{S}wift{Q}ueue: {O}ptimizing {L}ow-{L}atency {A}pplications with {S}wift {P}acket {Q}ueuing}, 
-      author={Siddhant Ray and Xi Jiang and Jack Luo and Nick Feamster and Junchen Jiang},
-      year={2024},
-      eprint={2410.06112},
+@misc{ray2025characterizingimpactactivequeue,
+      title={Characterizing the Impact of Active Queue Management on Speed Test Measurements}, 
+      author={Siddhant Ray and Taveesh Sharma and Jonatas Marques and Paul Schmitt and Francesco Bronzino and Nick Feamster},
+      year={2025},
+      eprint={2511.19213},
       archivePrefix={arXiv},
       primaryClass={cs.NI},
-      note={In Submission},
-      url={https://arxiv.org/abs/2410.06112}, 
+      url={https://arxiv.org/abs/2511.19213}, 
       abbr={arXiv},
-      abstract={Low Latency, Low Loss, and Scalable Throughput (L4S), as an emerging router-queue management technique, has seen steady deployment in the industry. An L4S-enabled router assigns each packet to the queue based on the packet header marking. Currently, L4S employs per-flow queue selection, i.e. all packets of a flow are marked the same way and thus use the same queues, even though each packet is marked separately. However, this may hurt tail latency and latency-sensitive applications because transient congestion and queue buildups may only affect a fraction of packets in a flow.
-                We present SwiftQueue, a new L4S queue-selection strategy in which a sender uses a novel per-packet latency predictor to pinpoint which packets likely have latency spikes or drops. The insight is that many packet-level latency variations result from complex interactions among recent packets at shared router queues. Yet, these intricate packet-level latency patterns are hard to learn efficiently by traditional models. Instead, SwiftQueue uses a custom Transformer, which is well-studied for its expressiveness on sequential patterns, to predict the next packet's latency based on the latencies of recently received ACKs. Based on the predicted latency of each outgoing packet, SwiftQueue's sender dynamically marks the L4S packet header to assign packets to potentially different queues, even within the same flow. Using real network traces, we show that SwiftQueue is 45-65% more accurate in predicting latency and its variations than state-of-art methods. Based on its latency prediction, SwiftQueue reduces the tail latency for L4S-enabled flows by 36-45%, compared with the existing L4S queue-selection method.},
-    bibtex_show={true},
-    arxiv={2410.06112},
+      abstract={Present day speed test tools measure peak throughput, but often fail to capture the user-perceived responsiveness of a network connection under load. Recently, platforms such as NDT, Ookla Speedtest and Cloudflare Speed Test have introduced metrics such as ``latency under load'' or ``working latency'' to fill this gap. Yet, the sensitivity of these metrics to basic network configurations such as Active Queue Management (AQM) remains poorly understood. In this work, we conduct an empirical study of the impact of AQM on speed test measurements in a laboratory setting. Using controlled experiments, we compare the distribution of throughput and latency under different load measurements across different AQM schemes, including CoDel, FQ-CoDel and Stochastic Fair Queuing (SFQ). On comparing with a standard drop-tail baseline, we find that measurements have high variance across AQM schemes and load conditions. These results highlight the critical role of AQM in shaping how emerging latency metrics should be interpreted, and underscore the need for careful calibration of speed test platforms before their results are used to guide policy or regulatory outcomes.}
 }

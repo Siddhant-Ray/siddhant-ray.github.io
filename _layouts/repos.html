@@ -1,0 +1,178 @@
+---
+layout: default
+---
+<!-- repositories.html -->
+
+<style>
+  /* Small badges consistent with your teaching level badge */
+  .repo-badge {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.2em 0.45em;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    display: inline-block;
+    line-height: 1.2;
+  }
+
+  /* Primary badge colors (light/dark) */
+  :root:not([data-theme="dark"]) .repo-badge--primary {
+    background-color: #00369f;
+    color: #ffffff;
+  }
+  [data-theme="dark"] .repo-badge--primary {
+    background-color: #68d36c;
+    color: #0b1f0f;
+  }
+
+  /* Neutral badge */
+  :root:not([data-theme="dark"]) .repo-badge--neutral {
+    background-color: rgba(0,0,0,0.08);
+    color: rgba(0,0,0,0.75);
+  }
+  [data-theme="dark"] .repo-badge--neutral {
+    background-color: rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.8);
+  }
+
+  .repo-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    margin-top: 0.5rem;
+  }
+</style>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+
+    {% assign pinned = page.github_repos | default: empty %}
+
+    <noscript>
+      <p class="text-muted mt-3">
+        JavaScript is disabled, so repository metadata can’t be fetched. Here are the links:
+      </p>
+      {% if pinned and pinned.size > 0 %}
+        <ul>
+          {% for r in pinned %}
+            <li><a href="https://github.com/{{ r }}" target="_blank" rel="noopener">{{ r }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </noscript>
+
+    {% if pinned and pinned.size > 0 %}
+      <div id="repo-list-pinned" class="repo-list mt-3"></div>
+    {% else %}
+      <p class="text-muted mt-3">No repositories configured yet.</p>
+    {% endif %}
+
+  </article>
+
+</div>
+
+<script>
+(function () {
+  const pinnedRepos = {{ page.github_repos | jsonify }};
+  const pinnedRoot = document.getElementById("repo-list-pinned");
+
+  function formatDate(iso) {
+    try {
+      const d = new Date(iso);
+      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function escapeHTML(str) {
+    return String(str)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function repoCardHTML(repo) {
+    const fullName = repo.full_name || "";
+    const url = repo.html_url || ("https://github.com/" + fullName);
+    const desc = repo.description || "";
+    const lang = repo.language || "";
+    const stars = typeof repo.stargazers_count === "number" ? repo.stargazers_count : null;
+    const forks = typeof repo.forks_count === "number" ? repo.forks_count : null;
+    const updated = repo.updated_at ? formatDate(repo.updated_at) : "";
+
+    return `
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div>
+              <h3 class="card-title mb-1">
+                <a href="${url}" target="_blank" rel="noopener">${fullName}</a>
+                ${lang ? `<span class="repo-badge repo-badge--primary ml-2">${lang}</span>` : ``}
+              </h3>
+            </div>
+          </div>
+
+          ${desc ? `<p class="card-text mt-3 mb-0">${escapeHTML(desc)}</p>` : ``}
+
+          <div class="repo-meta">
+            ${stars !== null ? `<span class="repo-badge repo-badge--neutral">★ ${stars}</span>` : ``}
+            ${forks !== null ? `<span class="repo-badge repo-badge--neutral">⑂ ${forks}</span>` : ``}
+            ${updated ? `<span class="repo-badge repo-badge--neutral">Updated ${updated}</span>` : ``}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  async function fetchRepo(fullName) {
+    const url = `https://api.github.com/repos/${fullName}`;
+    const res = await fetch(url, { headers: { "Accept": "application/vnd.github+json" } });
+    if (!res.ok) throw new Error(`GitHub API error for ${fullName}: ${res.status}`);
+    return await res.json();
+  }
+
+  async function renderPinned() {
+    if (!pinnedRoot || !Array.isArray(pinnedRepos) || pinnedRepos.length === 0) return;
+
+    // fetch in parallel, keep the given order
+    const results = await Promise.allSettled(pinnedRepos.map(fetchRepo));
+
+    let html = "";
+    for (let i = 0; i < results.length; i++) {
+      const r = results[i];
+      if (r.status === "fulfilled") {
+        html += repoCardHTML(r.value);
+      } else {
+        const name = pinnedRepos[i];
+        html += `
+          <div class="card mb-3">
+            <div class="card-body">
+              <h3 class="card-title mb-1">
+                <a href="https://github.com/${name}" target="_blank" rel="noopener">${name}</a>
+              </h3>
+              <p class="card-text mt-3 mb-0 text-muted">
+                Couldn’t load metadata right now.
+              </p>
+            </div>
+          </div>
+        `;
+      }
+    }
+    pinnedRoot.innerHTML = html;
+  }
+
+  renderPinned();
+})();
+</script>

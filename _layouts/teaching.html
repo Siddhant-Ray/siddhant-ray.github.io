@@ -1,0 +1,105 @@
+---
+layout: default
+---
+<!-- teaching.html -->
+
+<style>
+  /* Teaching level badge */
+  .teaching-level-badge {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.2em 0.45em;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+  }
+
+  /* Light theme */
+  :root:not([data-theme="dark"]) .teaching-level-badge {
+    background-color: #00369f;
+    color: #ffffff;
+  }
+
+  /* Dark theme (al-folio sets data-theme="dark") */
+  [data-theme="dark"] .teaching-level-badge {
+    background-color: #68d36c;
+    color: #0b1f0f;
+  }
+</style>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+
+    {% assign items = page.courses | default: empty %}
+    {% if items and items.size > 0 %}
+
+      {%- comment -%}
+      Sort by year (desc), then course (asc)
+      {%- endcomment -%}
+      {% assign sorted = items | sort: "course" | sort: "year" | reverse %}
+
+      <div class="teaching-list mt-4">
+        {% assign current_year = nil %}
+
+        {% for c in sorted %}
+          {% if c.year != current_year %}
+            {% assign current_year = c.year %}
+            <h2 class="mt-4">{{ current_year }}</h2>
+            <hr/>
+          {% endif %}
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div>
+                  <h3 class="card-title mb-1">
+                    {{ c.course }}
+                    {% if c.level %}
+                      <span class="teaching-level-badge ml-2">
+                        {{ c.level }}
+                      </span>
+                    {% endif %}
+                  </h3>
+                  {% if c.role %}
+                    <div class="text-muted">{{ c.role }}</div>
+                  {% endif %}
+                </div>
+                {% if c.institution %}
+                  <div class="text-muted mt-2 mt-md-0">{{ c.institution }}</div>
+                {% endif %}
+              </div>
+
+              {% if c.description %}
+                <p class="card-text mt-3 mb-0">{{ c.description }}</p>
+              {% endif %}
+
+              {% if c.links and c.links.size > 0 %}
+                <div class="mt-3">
+                  {% for link in c.links %}
+                    <a class="btn btn-sm btn-outline-primary mr-2 mb-2"
+                       href="{{ link.url | relative_url }}"
+                       {% if link.external %}target="_blank" rel="noopener"{% endif %}>
+                      {{ link.label }}
+                    </a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+    {% else %}
+      <p class="text-muted mt-3">No teaching entries yet.</p>
+    {% endif %}
+  </article>
+
+</div>
