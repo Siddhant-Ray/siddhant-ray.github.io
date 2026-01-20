@@ -12,7 +12,7 @@ courses:
     institution: University of Chicago
     role: Teaching Assistant
     year: 2026
-    description: Lead TA for the bomblab project. Held office hours and helped students debug and reverse-engineer a compile binary using assembly instructions and gdb. Also worked on homework and exam problem creation and grading.
+    description: Lead TA for the bomblab project. Held office hours and helped students debug and reverse-engineer a compiled binary using assembly instructions and gdb. Also worked on homework and exam problem creation and grading.
 
   - course: Systems Programming II
     level: Undergraduate

@@ -22,7 +22,7 @@ series = {SOSP '25},
 bibtex_show={true},
 selected={true},
 abbr={SOSP},
-arxiv={https://www.arxiv.org/abs/2412.10543},
+arxiv={2412.10543},
 talk={https://drive.google.com/file/d/1bMZf-38ubFO6hZk6ivZcsaL9kC72GEpa/view?usp=sharing},
 slides={metis_presentation_sosp.pptx},
 }
@@ -47,7 +47,7 @@ bibtex_show={true},
 selected={true},
 award_name={Best Paper},
 abbr={EuroSys},
-arxiv={https://arxiv.org/abs/2405.16444},
+arxiv={2405.16444},
 }
 
 @inproceedings{10.1145/3651890.3672274,
@@ -138,7 +138,7 @@ For this emerging token streaming problem in LLM Chatbots that differs from prev
       archivePrefix={arXiv},
       primaryClass={cs.NI},
       booktitle={Proceedings of the New Ideas in Networked Systems (NINeS) Conference},
-      url={https://arxiv.org/abs/2410.06112}, 
+      url={2410.06112}, 
       abbr={NINeS},
       abstract={Low Latency, Low Loss, and Scalable Throughput (L4S), as an emerging router-queue management technique, has seen steady deployment in the industry. An L4S-enabled router assigns each packet to the queue based on the packet header marking. Currently, L4S employs per-flow queue selection, i.e. all packets of a flow are marked the same way and thus use the same queues, even though each packet is marked separately. However, this may hurt tail latency and latency-sensitive applications because transient congestion and queue buildups may only affect a fraction of packets in a flow.
                 We present SwiftQueue, a new L4S queue-selection strategy in which a sender uses a novel per-packet latency predictor to pinpoint which packets likely have latency spikes or drops. The insight is that many packet-level latency variations result from complex interactions among recent packets at shared router queues. Yet, these intricate packet-level latency patterns are hard to learn efficiently by traditional models. Instead, SwiftQueue uses a custom Transformer, which is well-studied for its expressiveness on sequential patterns, to predict the next packet's latency based on the latencies of recently received ACKs. Based on the predicted latency of each outgoing packet, SwiftQueue's sender dynamically marks the L4S packet header to assign packets to potentially different queues, even within the same flow. Using real network traces, we show that SwiftQueue is 45-65% more accurate in predicting latency and its variations than state-of-art methods. Based on its latency prediction, SwiftQueue reduces the tail latency for L4S-enabled flows by 36-45%, compared with the existing L4S queue-selection method.},
