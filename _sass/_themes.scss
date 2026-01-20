@@ -63,3 +63,50 @@ html[data-theme='dark'] {
     display: block;
   }
 }
+
+/* Light theme */
+:root {
+  --award-text-color: #{$light-theme-blue};
+  --award-bg-color: transparent;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --award-text-color: #{$dark-theme-green};
+  --award-bg-color: transparent;
+}
+
+/* Fallback if your site uses prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --award-text-color: #{$dark-theme-green};
+  }
+}
+
+.award-badge {
+  color: var(--award-text-color);
+  background-color: var(--award-bg-color);
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  font-size: 1.3em;
+  padding: 2px 6px;
+  position: relative;
+  left: -0.25cm;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.85;
+    text-decoration: none;
+  }
+}
+
+.award-icon {
+  font-size: 1.6em;      // bigger emoji
+  line-height: 1;
+  vertical-align: -0.1em; // align nicely with text
+  margin-right: 0.2em;
+}
+
+
+
