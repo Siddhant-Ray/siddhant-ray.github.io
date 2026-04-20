@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+
+    <style>
+      .talk-type-badge {
+        display: inline-block;
+        padding: 0.32rem 0.8rem;
+        border-radius: 0.35rem;
+        background-color: var(--global-theme-color);
+        color: var(--global-bg-color);
+        font-size: 0.82rem;
+        font-weight: 600;
+        line-height: 1.2;
+        white-space: nowrap;
+      }
+    </style>
+
+    {% assign items = page.talks | default: empty %}
+    {% if items and items.size > 0 %}
+      {% assign sorted = items | sort: "month_order" | sort: "year" | reverse %}
+
+      {% assign current_year = nil %}
+      {% for t in sorted %}
+        {% if t.year != current_year %}
+          {% assign current_year = t.year %}
+          <h2 class="mt-4">{{ current_year }}</h2>
+          <hr>
+        {% endif %}
+
+        <div class="row mb-3 align-items-start">
+          <div class="col-sm-3">
+            {% if t.type %}
+              <span class="talk-type-badge">{{ t.type | capitalize | replace: "Guest lecture", "Guest Lecture" | replace: "Research talk", "Research Talk" | replace: "Lightning talk", "Lightning Talk" }}</span>
+            {% endif %}
+          </div>
+
+          <div class="col-sm-9">
+            {% if t.event %}
+              <div>{{ t.event }}</div>
+            {% endif %}
+
+            {% if t.institution %}
+              <div class="text-muted">{{ t.institution }}</div>
+            {% endif %}
+
+            <div class="text-muted">{{ t.month }} {{ t.year }}</div>
+
+            {% if t.location %}
+              <div>{{ t.location }}</div>
+            {% endif %}
+
+            {% if t.description %}
+              <div class="mt-1">{{ t.description }}</div>
+            {% endif %}
+
+            {% if t.links and t.links.size > 0 %}
+              <div class="mt-2">
+                {% for link in t.links %}
+                  <a href="{{ link.url }}" class="mr-3">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No talks listed yet.</p>
+    {% endif %}
+  </article>
+</div>

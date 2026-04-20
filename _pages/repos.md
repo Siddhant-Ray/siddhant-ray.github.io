@@ -2,7 +2,7 @@
 layout: repos
 permalink: /repositories/
 title: Repositories
-description: Selected projects and open-source work.
+description: Selected projects and open-source contributions.
 nav: true
 nav_order: 3
 

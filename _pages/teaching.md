@@ -2,7 +2,7 @@
 layout: teaching
 permalink: /teaching/
 title: Teaching
-description:
+description: Teaching roles and course support at University of Chicago.
 nav: true
 nav_order: 2
 
@@ -23,4 +23,4 @@ courses:
 ---
 
 <!-- Optional intro text below -->
-<p class="text-muted">Selected teaching roles and course support at Univerisity of Chicago.</p>
+<!-- <p class="text-muted">Selected teaching roles and course support at Univerisity of Chicago.</p> -->
