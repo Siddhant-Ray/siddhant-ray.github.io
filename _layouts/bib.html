@@ -153,9 +153,6 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
-          {%- if entry.award_name %}
-            <a href="https://2025.eurosys.org/awards.html" class="btn btn-sm z-depth-0 award-badge" role="button"> <span class="award-icon">🏅</span>{{ entry.award_name }}</a>
-          {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
@@ -178,6 +175,22 @@
           {%- endif %}
           {%- if entry.talk %}
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
+          {%- endif %}
+          {%- if entry.scholar_query or entry.scholar_url %}
+            <a
+              href="https://scholar.google.com/scholar?q={{ entry.title | uri_escape }}"
+              class="btn btn-sm z-depth-0 citation-btn"
+              role="button"
+              data-bibkey="{{ entry.key }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ai ai-google-scholar" aria-hidden="true" style="font-size: 0.95rem; margin-right: 0.3rem; vertical-align: -0.1rem;"></i>
+              Cited by <span class="citation-count">-</span>
+            </a>
+            {%- endif %}
+          {%- if entry.award_name %}
+            <a href="https://2025.eurosys.org/awards.html" class="btn btn-sm z-depth-0 award-badge" role="button"> <span class="award-icon">🏅</span>{{ entry.award_name }}</a>
           {%- endif %}
           </div>
 

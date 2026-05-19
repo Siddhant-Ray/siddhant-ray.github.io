@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 <p align="justify">
 I am a third year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I am interested efficient serving systems for Large Language Models while using LLM application feedback and in machine learning methods for performance improvements in computer networks and systems. </p> 
 
-<p align="justify"> Currently, I am working on obtaining better quality-efficiency tradeoffs in multi-agent LLM system serving, focusing on <i> joint agent-memory and KV Cache management. </i> </p>
+<p align="justify"> Currently, I am working on measuring and obtaining better cost-quality tradeoffs in multi-agent LLM system serving, focusing on <i> joint agent-memory and KV Cache management. </i> </p>
 
 <p align="justify"> Earlier I have worked on <i> joint quality-delay optimizations </i> in Retrieval-Augmented-Generation systems with query level configuration selection and resource scheduling <b>(METIS, SOSP'25)</b>. I also worked on Transformer models for <i> per-packet latency prediction </i> enabling tail-latency reduction for latency sensitive applications<b>(SwiftQueue, NINeS'26)</b>.</p>
 

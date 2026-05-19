@@ -18,6 +18,7 @@
     bibtex_show={true},
     arxiv={2410.06112},
     selected={true},
+    scholar_query={SwiftQueue Optimizing Low-Latency Applications with Swift Packet Queuing Siddhant Ray},
 }
 
 @inproceedings{10.1145/3731569.3764855,
@@ -42,6 +43,7 @@ abbr={SOSP},
 arxiv={2412.10543},
 talk={https://drive.google.com/file/d/1bMZf-38ubFO6hZk6ivZcsaL9kC72GEpa/view?usp=sharing},
 slides={metis_presentation_sosp.pptx},
+scholar_query={METIS Fast Quality-Aware RAG Systems with Configuration Adaptation Siddhant Ray},
 }
 
 @inproceedings{10.1145/3689031.3696098,
@@ -65,6 +67,7 @@ selected={true},
 award_name={Best Paper},
 abbr={EuroSys},
 arxiv={2405.16444},
+scholar_query={CacheBlend Fast Large Language Model Serving for RAG with Cached Knowledge Fusion},
 }
 
 @inproceedings{10.1145/3651890.3672274,
@@ -86,6 +89,7 @@ selected={true},
 abstract={s large language models (LLMs) take on complex tasks, their inputs are supplemented with longer contexts that incorporate domain knowledge. Yet using long contexts is challenging, as nothing can be generated until the whole context is processed by the LLM. While the context-processing delay can be reduced by reusing the KV cache of a context across different inputs, fetching the KV cache, which contains large tensors, over the network can cause high extra network delays.
 CacheGen is a fast context-loading module for LLM systems. First, CacheGen uses a custom tensor encoder, leveraging KV cache's distributional properties to encode a KV cache into more compact bitstream representations with negligible decoding overhead, to save bandwidth usage. Second, CacheGen adapts the compression level of different parts of a KV cache to cope with changes in available bandwidth, in order to maintain low context-loading delay and high generation quality. % When available bandwidth drops, CacheGen may raise the compression level for a part of the context or recompute its KV cache on the fly. We test CacheGen on popular LLMs and datasets. Compared to the recent systems that reuse the KV cache, CacheGen reduces the KV cache size by 3.5-4.3x and the total delay in fetching and processing contexts by 3.2-3.7x with negligible impact on the LLM response quality. Our code is at: this https URL.},
 talk={https://www.youtube.com/watch?v=H4_OUWvdiNo&list=PLU4C2_kotFP3N52c6xy4kOrapJaY50Iqt&index=4&t=90s},
+scholar_query={CacheGen KV Cache Compression and Streaming for Fast Large Language Model Serving},
 }
 
 @inproceedings{dietmuller2022new,
@@ -111,6 +115,7 @@ talk={https://www.youtube.com/watch?v=H4_OUWvdiNo&list=PLU4C2_kotFP3N52c6xy4kOra
   bibtex_show={true},
   abbr={HOTNETS},
   talk={https://www.youtube.com/watch?v=B8F4cTXFVDY&list=PLU4C2_kotFP3jPL6bypVFEleTwqMaIxKs&index=6},
+  scholar_query={A New Hope for Network Model Generalization},
 }
 
 @article{ray2020machine,
@@ -126,6 +131,7 @@ talk={https://www.youtube.com/watch?v=H4_OUWvdiNo&list=PLU4C2_kotFP3N52c6xy4kOra
   publisher={Inderscience Publishers (IEL)},
   code={https://github.com/Siddhant-Ray/Machine-Learning-Based-Cell-Association},
   abbr={IJMNDI},
+  scholar_query={Machine learning based cell association for mMTC 5G communication networks Siddhant Ray},
 }
 
 
@@ -147,5 +153,6 @@ arxiv={2401.12961},
 bibtex_show={true},
 abstract={To render each generated token in real-time for users, the Large Language Model (LLM) server generates tokens one by one and streams each token (or group of a few tokens) through the network to the user right after generation, which we refer to as LLM token streaming. However, under unstable network conditions, the LLM token streaming experience could suffer greatly from stalls since one packet loss could block the rendering of later tokens even if the packets containing them arrive on time. With a measurement study, we show that current applications suffer from increased stalls under unstable networks.
 For this emerging token streaming problem in LLM Chatbots that differs from previous multimedia and text applications, we propose a novel transmission scheme, called Eloquent, which puts newly generated tokens as well as currently unacknowledged tokens in the next outgoing packet. This ensures that each packet contains some new tokens and, in the meantime, is independently rendered when received, avoiding the aforementioned stalls caused by missing packets. Through simulation under various networks, we show Eloquent reduces stall ratio (proportion of token rendering wait time) by 71.0% compared to the retransmission method commonly used by real chatbot applications and by 31.6% compared to the baseline packet duplication scheme. By tailoring Eloquent to fit the token-by-token generation of LLM, we enable the Chatbots to respond like an eloquent speaker for users to better enjoy pervasive AI.},
+scholar_query={Eloquent A More Robust Transmission Scheme for LLM Token Streaming},
 }
 
