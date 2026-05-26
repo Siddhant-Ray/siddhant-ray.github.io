@@ -4,11 +4,7 @@
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://siddhant-ray.github.io/)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star! This repository is based of [`al-folio`](https://github.com/alshedivat/al-folio) with some cool modifications.
-
-## Lighthouse PageSpeed Insights
-
-[![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
+If you like the theme, give it a star! This repository is based of [`al-folio`](https://github.com/alshedivat/al-folio) with several modifications.
 
 ## License
 
