@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  update-citations:
+  update-citations-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
@@ -41,3 +41,34 @@ jobs:
           git add assets/data/citations.json
           git diff --cached --quiet || git commit -m "Update Google Scholar citation counts"
           git push
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Update _config.yml
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+
+      - name: Install and Build
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Purge unused CSS
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
