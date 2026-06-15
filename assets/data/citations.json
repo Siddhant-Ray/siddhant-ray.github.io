@@ -1,7 +1,7 @@
 {
   "10.1145/3651890.3672274": {
     "arxiv": "2310.07240",
-    "cited_by": 304,
+    "cited_by": 308,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3651890.3672274",
     "matched_title": "Cachegen: Kv cache compression and streaming for fast large language model serving",
@@ -10,7 +10,7 @@
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:zA6iFVUQeVQC",
-        "cited_by": 304,
+        "cited_by": 308,
         "matched_pattern": "cachegen kv cache compression and streaming for fast large language model serving",
         "matched_title": "Cachegen: Kv cache compression and streaming for fast large language model serving",
         "publication_info_summary": "Proceedings of the ACM SIGCOMM 2024 Conference, 38-56, 2024",
@@ -28,7 +28,7 @@
       }
     ],
     "title": "CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "10.1145/3672198.3673797": {
     "arxiv": "2401.12961",
@@ -59,11 +59,11 @@
       }
     ],
     "title": "Eloquent: A More Robust Transmission Scheme for LLM Token Streaming",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "10.1145/3689031.3696098": {
     "arxiv": "2405.16444",
-    "cited_by": 242,
+    "cited_by": 247,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3689031.3696098",
     "matched_title": "Cacheblend: Fast large language model serving for rag with cached knowledge fusion",
@@ -72,7 +72,7 @@
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:rO6llkc54NcC",
-        "cited_by": 242,
+        "cited_by": 247,
         "matched_pattern": "cacheblend fast large language model serving for rag with cached knowledge fusion",
         "matched_title": "Cacheblend: Fast large language model serving for rag with cached knowledge fusion",
         "publication_info_summary": "Proceedings of the twentieth European conference on computer systems, 94-109, 2025",
@@ -90,11 +90,11 @@
       }
     ],
     "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "10.1145/3731569.3764855": {
     "arxiv": "2412.10543",
-    "cited_by": 33,
+    "cited_by": 34,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3731569.3764855",
     "matched_title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
@@ -103,7 +103,7 @@
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:EUQCXRtRnyEC",
-        "cited_by": 33,
+        "cited_by": 34,
         "matched_pattern": "metis fast quality aware rag systems with configuration adaptation",
         "matched_title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
         "publication_info_summary": "Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles \u2026, 2025",
@@ -121,7 +121,7 @@
       }
     ],
     "title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "dietmuller2022new": {
     "arxiv": "2207.05843",
@@ -152,7 +152,7 @@
       }
     ],
     "title": "A New Hope for Network Model Generalization",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "ray2020machine": {
     "arxiv": "",
@@ -183,7 +183,7 @@
       }
     ],
     "title": "Machine learning based cell association for mMTC 5G communication networks",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "ray2025characterizingimpactactivequeue": {
     "arxiv": "2511.19213",
@@ -214,7 +214,7 @@
       }
     ],
     "title": "Characterizing the Impact of Active Queue Management on Speed Test Measurements",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "ray2026swiftqueueoptimizinglowlatencyapplications": {
     "arxiv": "2410.06112",
@@ -245,7 +245,7 @@
       }
     ],
     "title": "SwiftQueue: Optimizing Low-Latency Applications with Swift Packet Queuing",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   },
   "siddhantnsdi": {
     "arxiv": "",
@@ -257,6 +257,6 @@
     "scholar_link": "",
     "scholar_rows": [],
     "title": "Transformer-based Predictions for Sudden Network Changes (Poster)",
-    "updated_at": "2026-06-08T03:29:41+00:00"
+    "updated_at": "2026-06-15T03:39:59+00:00"
   }
 }
