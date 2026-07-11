@@ -10,3 +10,18 @@
       abbr={arXiv},
       abstract={Present day speed test tools measure peak throughput, but often fail to capture the user-perceived responsiveness of a network connection under load. Recently, platforms such as NDT, Ookla Speedtest and Cloudflare Speed Test have introduced metrics such as ``latency under load'' or ``working latency'' to fill this gap. Yet, the sensitivity of these metrics to basic network configurations such as Active Queue Management (AQM) remains poorly understood. In this work, we conduct an empirical study of the impact of AQM on speed test measurements in a laboratory setting. Using controlled experiments, we compare the distribution of throughput and latency under different load measurements across different AQM schemes, including CoDel, FQ-CoDel and Stochastic Fair Queuing (SFQ). On comparing with a standard drop-tail baseline, we find that measurements have high variance across AQM schemes and load conditions. These results highlight the critical role of AQM in shaping how emerging latency metrics should be interpreted, and underscore the need for careful calibration of speed test platforms before their results are used to guide policy or regulatory outcomes.},
 }}
+
+@misc{ray2026argoefficientimportancelabeling,
+      title={Argo: Efficient Importance Labeling for Enterprise Email Systems}, 
+      author={Siddhant Ray and Ganesh Ananthanarayanan and Kevin Chian and Yan Guo and Cristina St Hill and Jack W. Stokes and Victor Wang and Junchen Jiang},
+      year={2026},
+      eprint={2605.21604},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      bibtex_show={true},
+      arxiv={2605.21604},
+      abbr={arXiv},
+      url={https://arxiv.org/abs/2605.21604},
+      abstract={Email importance labeling has long been a critical yet challenging problem for businesses and individuals. Traditional approaches; such as keyword matching, user-defined rules, and sender-based heuristics; demand extensive manual feature engineering and fail to scale effectively or generalize. Recent advances in large language models (LLMs) demonstrate strong potential and a natural fit for this task, offering deep contextual understanding and superior labeling quality. However, using LLM models like GPT-4.1 at enterprise email volumes incurs prohibitive computational costs and hinders real-world deployment. We explore the trade-off space of using alternative labeling schemes as opposed to GPT4.1 scale LLMs, with the goal of achieving near GPT level labeling quality with significantly lower cost. We develop Argo, an enterprise email labeling framework, where we construct a profiler to efficiently search the cost quality trade-off space of labeling and identify cost-efficient alternatives to labeling emails. Additionally, we design an on-demand provisioning scheme to intelligently scale Argo with real time load, to minimize cost increases during peak load inference. Over 3 open-source email datasets, Argo achieves 148-167X inference cost reduction with negligible quality degradation and 20-640000X lower profiling costs, making large-scale, context-aware email labeling practical for enterprises.},
+
+}
