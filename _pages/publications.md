@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications by categories in reversed chronological order.
-years: [2026, 2025, 2024, 2022, 2020]
+suppress_bib_year: true
 nav: true
 nav_order: 1
 custom_js:
@@ -14,21 +14,14 @@ custom_js:
 
 <h1>preprints</h1>
 
-{% bibliography -f preprints %}
+{% bibliography -f preprints --group_by year --group_order descending %}
 
 <h1> peer reviewed </h1>
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-
+{% bibliography -f papers --group_by year --group_order descending %}
 
 <h1>posters</h1>
 
-{% bibliography -f posters %}
+{% bibliography -f posters --group_by year --group_order descending %}
 
 </div>
-
-

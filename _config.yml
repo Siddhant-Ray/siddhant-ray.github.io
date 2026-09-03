@@ -160,6 +160,7 @@ exclude:
   - bin
   - Gemfile
   - Gemfile.lock
+  - test
   - vendor
 keep_files:
   - CNAME

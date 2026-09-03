@@ -1,0 +1,3 @@
+external_sources: []
+imagemagick:
+  enabled: false

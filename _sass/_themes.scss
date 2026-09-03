@@ -14,6 +14,7 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
+  --global-publication-year-color: rgba(0,0,0,.3);
   --global-card-bg-color: #{$white-color};
 
   .fa-sun {
@@ -45,6 +46,7 @@ html[data-theme='dark'] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
+  --global-publication-year-color: rgba(255,255,255,.35);
   --global-card-bg-color: #{$grey-900};
 
   .fa-sun {
