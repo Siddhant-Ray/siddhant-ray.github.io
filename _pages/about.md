@@ -15,11 +15,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p align="justify">
-I am a third year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. I am interested efficient serving systems for Large Language Models while using LLM application feedback and in machine learning methods for performance improvements in computer networks and systems. </p> 
+I am a fourth year PhD student in Computer Science at the <a href = "https://cs.uchicago.edu/academics/phd/"> University of Chicago</a>, advised by <a href ="https://people.cs.uchicago.edu/~junchenj/"> Junchen Jiang</a> and <a href ="https://people.cs.uchicago.edu/~feamster/"> Nick Feamster</a>. Overall, I am interested in building <i> efficient inference systems </i> for LLM and Physical AI applications, using <i>application-specific feedback.</i>
 
-<p align="justify"> Currently, I am working on measuring and obtaining better cost-quality tradeoffs in multi-agent LLM system serving, focusing on <i> joint agent-memory and KV Cache management. </i> </p>
+<p align="justify">
+My current research focuses on two directions. First, I am developing new Vision-Language-Action (VLA) model architectures and serving systems for <i>resource-efficient inference of long-horizon physical AI workloads.</i> Second, I am exploring how to achieve better cost–quality tradeoffs in long-horizon LLM agent serving systems through <i>joint agent-memory and KV Cache management</i>.</p>
 
-<p align="justify"> Earlier I have worked on <i> joint quality-delay optimizations </i> in Retrieval-Augmented-Generation systems with query level configuration selection and resource scheduling <b>(METIS, SOSP'25)</b>. I also worked on Transformer models for <i> per-packet latency prediction </i> enabling tail-latency reduction for latency sensitive applications<b>(SwiftQueue, NINeS'26)</b>.</p>
+
+<p align="justify"> Earlier I have worked on <i> joint quality-delay optimizations </i> in Retrieval-Augmented-Generation systems with query level configuration selection and resource management <b>(METIS, SOSP'25)</b>. I also worked on Transformer models for <i> per-packet latency prediction </i> enabling tail-latency reduction for latency sensitive applications <b>(SwiftQueue, NINeS'26)</b>.</p>
 
 <p align="justify"> In the past, I have worked on advances in Software Defined Networking, programmable networks and cloud computing. Additionally I have spent some time developing NLP techniques to analyse political corpora. </p>
 
