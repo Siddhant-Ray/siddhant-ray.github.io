@@ -551,12 +551,7 @@ footer.sticky-bottom {
           a.btn {
             flex: 0 0 auto;
             margin: 0;
-            padding-inline: 0.65rem;
             white-space: nowrap;
-
-            &:not(.award-badge) {
-              font-size: 0.75rem;
-            }
           }
 
           .award-badge {
