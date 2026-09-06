@@ -126,7 +126,7 @@
         {%- endif %}
 
           <!-- Links/Buttons -->
-          <div class="links">
+          <div class="links{% if entry.deployment_name %} deployment-links{% endif %}">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -191,6 +191,9 @@
             {%- endif %}
           {%- if entry.award_name %}
             <a href="https://2025.eurosys.org/awards.html" class="btn btn-sm z-depth-0 award-badge" role="button"> <span class="award-icon">🏅</span>{{ entry.award_name }}</a>
+          {%- endif %}
+          {%- if entry.deployment_name %}
+            <a class="btn btn-sm z-depth-0 award-badge" role="button"><span class="award-icon" aria-hidden="true">🏆</span>{{ entry.deployment_name }}</a>
           {%- endif %}
           </div>
 

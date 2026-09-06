@@ -540,6 +540,30 @@ footer.sticky-bottom {
         }
       }
       .links {
+        &.deployment-links {
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+          gap: 0.5rem;
+          overflow-x: auto;
+          padding-block: 0.375rem;
+
+          a.btn {
+            flex: 0 0 auto;
+            margin: 0;
+            padding-inline: 0.65rem;
+            white-space: nowrap;
+
+            &:not(.award-badge) {
+              font-size: 0.75rem;
+            }
+          }
+
+          .award-badge {
+            left: 0;
+          }
+        }
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
