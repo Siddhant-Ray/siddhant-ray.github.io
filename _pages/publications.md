@@ -12,13 +12,13 @@ custom_js:
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h1>preprints</h1>
-
-{% bibliography -f preprints --group_by year --group_order descending %}
-
 <h1> peer reviewed </h1>
 
 {% bibliography -f papers --group_by year --group_order descending %}
+
+<h1>preprints</h1>
+
+{% bibliography -f preprints --group_by year --group_order descending %}
 
 <h1>posters</h1>
 

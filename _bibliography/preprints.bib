@@ -1,3 +1,16 @@
+@misc{ray2026internetkvcacherethinking,
+      title={An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age}, 
+      author={Siddhant Ray and Nick Feamster and Junchen Jiang},
+      year={2026},
+      eprint={2608.01526},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2608.01526},
+      bibtex_show={true},
+      abbr={arXiv},
+      abstract={LLM inference has become a global-scale, heterogeneous workload spanning agents, retrieval, tool-use, code execution and multi-modal reasoning. These workloads naturally enable context reuse from overlapping inputs, creating a major opportunity to store and reuse the contexts' KV Caches instead of recomputing them. However, model-side advances that shrink the KV Cache and system-side advances that reduce compute, storage, and transfer costs are evolve independently within legacy cloud boundaries. We argue that future inference infrastructure should allow decoupling of compute and KV Cache storage across cloud and datacenters. The network becomes an active distribution channel; bandwidth, latency and pricing directly determines how the KV Cache should be managed. We propose a vision for an Internet for the KV Cache, with KV Cache management working as a content-distribution system. In this view, KV Cache storage and recompute decisions are driven by model, infrastructure, and application metrics, to enable adaptive, content-driven decisions for minimizing latency and cost.}
+}
+
 @misc{ray2026characterizingimpactactivequeue,
       title={Characterizing the Impact of Active Queue Management on Speed Test Measurements}, 
       author={Siddhant Ray and Taveesh Sharma and Jonatas Marques and Paul Schmitt and Francesco Bronzino and Nick Feamster},
