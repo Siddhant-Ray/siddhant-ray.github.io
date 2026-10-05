@@ -114,9 +114,7 @@ class PublicationsRenderTest < Minitest::Test
             when "inproceedings" then "In #{entry[:booktitle]}"
             else ""
             end
-    month = entry[:month].to_s
-
-    normalize([venue, month.empty? ? nil : month.capitalize].compact.join(" "))
+    normalize(venue)
   end
 
   def rendered_years(section)

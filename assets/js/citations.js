@@ -19,11 +19,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const count = citations[key].cited_by;
 
-      if (Number.isInteger(count)) {
-        countEl.textContent = count;
-      } else {
-        countEl.textContent = "–";
-      }
+      if (!Number.isInteger(count) || count <= 0) return;
+
+      countEl.textContent = count;
 
       if (citations[key].scholar_link) {
         button.href = citations[key].scholar_link;
@@ -35,6 +33,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (updatedAt) {
         button.title = `${method}. Last updated: ${updatedAt}`;
       }
+
+      button.classList.remove("d-none");
     });
   } catch (error) {
     console.warn("Could not load citation counts:", error);
