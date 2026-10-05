@@ -1,20 +1,20 @@
 {
   "10.1145/3651890.3672274": {
     "arxiv": "2310.07240",
-    "cited_by": 397,
+    "cited_by": 412,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3651890.3672274",
     "matched_title": "Cachegen: Kv cache compression and streaming for fast large language model serving",
     "query": "CacheGen KV Cache Compression and Streaming for Fast Large Language Model Serving",
-    "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10668965479390733821,9505647297543451235,3364451257024533781,17235929920380738419,9029859541308327376,14830514552610617657,14284685193175165345,5237715638036131720,18301371669583121668",
+    "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10668965479390733821,9505647297543451235,3364451257024533781,17235929920380738419,9029859541308327376,14830514552610617657,14284685193175165345,18301371669583121668,5237715638036131720",
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:zA6iFVUQeVQC",
-        "cited_by": 397,
+        "cited_by": 412,
         "matched_pattern": "cachegen kv cache compression and streaming for fast large language model serving",
         "matched_title": "Cachegen: Kv cache compression and streaming for fast large language model serving",
         "publication_info_summary": "Proceedings of the ACM SIGCOMM 2024 Conference, 2023",
-        "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10668965479390733821,9505647297543451235,3364451257024533781,17235929920380738419,9029859541308327376,14830514552610617657,14284685193175165345,5237715638036131720,18301371669583121668",
+        "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10668965479390733821,9505647297543451235,3364451257024533781,17235929920380738419,9029859541308327376,14830514552610617657,14284685193175165345,18301371669583121668,5237715638036131720",
         "scores": {
           "containment": 1.0,
           "inclusion": 1.0,
@@ -28,11 +28,11 @@
       }
     ],
     "title": "CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "10.1145/3672198.3673797": {
     "arxiv": "2401.12961",
-    "cited_by": 15,
+    "cited_by": 16,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3672198.3673797",
     "matched_title": "Eloquent: A more robust transmission scheme for llm token streaming",
@@ -41,7 +41,7 @@
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:u_35RYKgDlwC",
-        "cited_by": 15,
+        "cited_by": 16,
         "matched_pattern": "eloquent a more robust transmission scheme for llm token streaming",
         "matched_title": "Eloquent: A more robust transmission scheme for llm token streaming",
         "publication_info_summary": "Proceedings of the 2024 SIGCOMM Workshop on Networks for AI Computing, 34-40, 2024",
@@ -59,11 +59,11 @@
       }
     ],
     "title": "Eloquent: A More Robust Transmission Scheme for LLM Token Streaming",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "10.1145/3689031.3696098": {
     "arxiv": "2405.16444",
-    "cited_by": 367,
+    "cited_by": 395,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3689031.3696098",
     "matched_title": "Cacheblend: Fast large language model serving for rag with cached knowledge fusion",
@@ -72,7 +72,7 @@
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:rO6llkc54NcC",
-        "cited_by": 367,
+        "cited_by": 395,
         "matched_pattern": "cacheblend fast large language model serving for rag with cached knowledge fusion",
         "matched_title": "Cacheblend: Fast large language model serving for rag with cached knowledge fusion",
         "publication_info_summary": "Proceedings of the Twentieth European Conference on Computer Systems, 2024",
@@ -90,24 +90,24 @@
       }
     ],
     "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "10.1145/3731569.3764855": {
     "arxiv": "2412.10543",
-    "cited_by": 46,
+    "cited_by": 48,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "10.1145/3731569.3764855",
     "matched_title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
     "query": "METIS Fast Quality-Aware RAG Systems with Configuration Adaptation Siddhant Ray",
-    "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14054690236899322516,7724380468899086146,2553400182803704132,10472287771337946223",
+    "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14054690236899322516,2553400182803704132,7724380468899086146,10472287771337946223",
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:EUQCXRtRnyEC",
-        "cited_by": 46,
+        "cited_by": 48,
         "matched_pattern": "metis fast quality aware rag systems with configuration adaptation",
         "matched_title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
         "publication_info_summary": "Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles \u2026, 2025",
-        "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14054690236899322516,7724380468899086146,2553400182803704132,10472287771337946223",
+        "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14054690236899322516,2553400182803704132,7724380468899086146,10472287771337946223",
         "scores": {
           "containment": 1.0,
           "inclusion": 1.0,
@@ -121,7 +121,7 @@
       }
     ],
     "title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "dietmuller2022new": {
     "arxiv": "2207.05843",
@@ -152,7 +152,7 @@
       }
     ],
     "title": "A New Hope for Network Model Generalization",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "ray2020machine": {
     "arxiv": "",
@@ -183,7 +183,7 @@
       }
     ],
     "title": "Machine learning based cell association for mMTC 5G communication networks",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "ray2026argoefficientimportancelabeling": {
     "arxiv": "2605.21604",
@@ -199,7 +199,7 @@
         "cited_by": 0,
         "matched_pattern": "argo efficient importance labeling for enterprise email systems",
         "matched_title": "Argo: Efficient Importance Labeling for Enterprise Email Systems",
-        "publication_info_summary": "arXiv preprint arXiv:2605.21604, 2026",
+        "publication_info_summary": "Proceedings of the 5th Workshop on Practical Adoption Challenges of ML for \u2026, 2026",
         "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sHQFKFUAAAAJ&pagesize=100&citation_for_view=sHQFKFUAAAAJ:vRqMK49ujn8C",
         "scores": {
           "containment": 1.0,
@@ -214,24 +214,24 @@
       }
     ],
     "title": "Argo: Efficient Importance Labeling for Enterprise Email Systems",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "ray2026characterizingimpactactivequeue": {
     "arxiv": "2511.19213",
-    "cited_by": 0,
+    "cited_by": 1,
     "counting_method": "sum_matching_google_scholar_author_profile_rows",
     "doi": "",
     "matched_title": "Characterizing the Impact of Active Queue Management on Speed Test Measurements",
     "query": "Characterizing the Impact of Active Queue Management on Speed Test Measurements Siddhant Ray and Taveesh Sharma and Jonatas Marques and Paul Schmitt and Francesco Bronzino and Nick Feamster",
-    "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sHQFKFUAAAAJ&pagesize=100&citation_for_view=sHQFKFUAAAAJ:p2g8aNsByqUC",
+    "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2667898405768068032",
     "scholar_rows": [
       {
         "citation_id": "sHQFKFUAAAAJ:p2g8aNsByqUC",
-        "cited_by": 0,
+        "cited_by": 1,
         "matched_pattern": "characterizing the impact of active queue management on speed test measurements",
         "matched_title": "Characterizing the Impact of Active Queue Management on Speed Test Measurements",
         "publication_info_summary": "arXiv preprint arXiv:2511.19213, 2025",
-        "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sHQFKFUAAAAJ&pagesize=100&citation_for_view=sHQFKFUAAAAJ:p2g8aNsByqUC",
+        "scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2667898405768068032",
         "scores": {
           "containment": 1.0,
           "inclusion": 1.0,
@@ -245,7 +245,7 @@
       }
     ],
     "title": "Characterizing the Impact of Active Queue Management on Speed Test Measurements",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "ray2026internetkvcacherethinking": {
     "arxiv": "2608.01526",
@@ -276,7 +276,7 @@
       }
     ],
     "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "ray2026swiftqueueoptimizinglowlatencyapplications": {
     "arxiv": "2410.06112",
@@ -307,7 +307,7 @@
       }
     ],
     "title": "SwiftQueue: Optimizing Low-Latency Applications with Swift Packet Queuing",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   },
   "siddhantnsdi": {
     "arxiv": "",
@@ -319,6 +319,6 @@
     "scholar_link": "",
     "scholar_rows": [],
     "title": "Transformer-based Predictions for Sudden Network Changes (Poster)",
-    "updated_at": "2026-09-28T03:10:41+00:00"
+    "updated_at": "2026-10-05T03:38:50+00:00"
   }
 }
