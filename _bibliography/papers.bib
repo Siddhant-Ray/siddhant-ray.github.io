@@ -13,6 +13,7 @@
     primaryClass={cs.NI},
     booktitle={Proceedings of the New Ideas in Networked Systems (NINeS) Conference},
     url={2410.06112}, 
+    doi={10.4230/OASIcs.NINeS.2026.24},
     abbr={NINeS},
     abstract={Low Latency, Low Loss, and Scalable Throughput (L4S), as an emerging router-queue management technique, has seen steady deployment in the industry. An L4S-enabled router assigns each packet to the queue based on the packet header marking. Currently, L4S employs per-flow queue selection, i.e. all packets of a flow are marked the same way and thus use the same queues, even though each packet is marked separately. However, this may hurt tail latency and latency-sensitive applications because transient congestion and queue buildups may only affect a fraction of packets in a flow.
               We present SwiftQueue, a new L4S queue-selection strategy in which a sender uses a novel per-packet latency predictor to pinpoint which packets likely have latency spikes or drops. The insight is that many packet-level latency variations result from complex interactions among recent packets at shared router queues. Yet, these intricate packet-level latency patterns are hard to learn efficiently by traditional models. Instead, SwiftQueue uses a custom Transformer, which is well-studied for its expressiveness on sequential patterns, to predict the next packet's latency based on the latencies of recently received ACKs. Based on the predicted latency of each outgoing packet, SwiftQueue's sender dynamically marks the L4S packet header to assign packets to potentially different queues, even within the same flow. Using real network traces, we show that SwiftQueue is 45-65% more accurate in predicting latency and its variations than state-of-art methods. Based on its latency prediction, SwiftQueue reduces the tail latency for L4S-enabled flows by 36-45%, compared with the existing L4S queue-selection method.},
@@ -126,6 +127,7 @@ scholar_query={CacheGen KV Cache Compression and Streaming for Fast Large Langua
 
 @article{ray2020machine,
   title={Machine learning based cell association for mMTC 5G communication networks},
+  doi={10.1504/IJMNDI.2020.112622},
   bibtex_show={true},
   abstract={With the advent of 5G communication networks, the number of devices on the core 5G network significantly increases. A 5G network is a cloud native, massively connected IoT platform with a huge number of devices hosted on the network as compared to prior generation networks. Previously known Machine Type Communication (MTC), it is now known as massive Machine Type Communication (mMTC) and plays a pivotal role in the new network scenario with a larger pool of devices. As ultra-low latency is the key metric in developing 5G communication, a proper cell association scheme is now required to meet the load and traffic needs of the new network, as compared to the earlier cell association schemes which were based only on the Reference Signal Received Power (RSRP). The eNodeB with the highest RSRP may not always be optimal for cell association to provide the lowest latency. This paper proposes an unsupervised machine learning algorithm, namely Hidden Markov Model (HMM) learning on the network’s telemetry data, which is used to learn network parameters and select the best eNodeB for cell association, with the objective of ultimate ultralow latency. The proposed model uses an HMM learning followed by decoding for selecting the optimal cell for association.},
   author={Ray, Siddhant and Bhattacharyya, Budhaditya},
@@ -168,6 +170,7 @@ title = {Argo: Efficient Importance Labeling for Enterprise Email Systems},
 year = {2026},
 month = {September},
 url = {https://arxiv.org/abs/2605.21604},
+doi = {10.1145/3843967.3844682},
 abstract = {Email importance labeling has long been a critical yet challenging problem for businesses and individuals. Traditional approaches; such as keyword matching, user-defined rules, and sender-based heuristics; demand extensive manual feature engineering and fail to scale effectively or generalize. Recent advances in large language models (LLMs) demonstrate strong potential and a natural fit for this task, offering deep contextual understanding and superior labeling quality. However, using LLM models like GPT-4.1 at enterprise email volumes incurs prohibitive computational costs and hinders real-world deployment. We explore the trade-off space of using alternative labeling schemes as opposed to GPT4.1 scale LLMs, with the goal of achieving near GPT level labeling quality with significantly lower cost. We develop Argo, an enterprise email labeling framework, where we construct a profiler to efficiently search the cost quality trade-off space of labeling and identify cost-efficient alternatives to labeling emails. Additionally, we design an on-demand provisioning scheme to intelligently scale Argo with real time load, to minimize cost increases during peak load inference. Over 3 open-source email datasets, Argo achieves 148-167X inference cost reduction with negligible quality degradation and 20-640000X lower profiling costs, making large-scale, context-aware email labeling practical for enterprises.},
 booktitle = {Proceedings of the 5th Workshop on Practical Adoption Challenges of ML for Systems (co-located with SOSP)},
 series = {Practical Adoption Challenges of ML for Systems},
@@ -178,6 +181,5 @@ scholar_query = {Argo Efficient Importance Labeling for Enterprise Email Systems
 deployment_name = {Deployed at Microsoft},
 selected={true},
 slides={argo_pacmi_final.pptx},
-pdf={argo_pacmi.pdf},
 }
 

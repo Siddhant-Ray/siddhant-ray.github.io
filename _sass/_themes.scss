@@ -1,21 +1,23 @@
+@use "variables";
+
 /*******************************************************************************
  * Themes
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$light-theme-blue};
-  --global-hover-color: #{$light-theme-blue};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
+  --global-bg-color: #{variables.$white-color};
+  --global-code-bg-color: #{variables.$code-bg-color-light};
+  --global-text-color: #{variables.$black-color};
+  --global-text-color-light: #{variables.$grey-color};
+  --global-theme-color: #{variables.$light-theme-blue};
+  --global-hover-color: #{variables.$light-theme-blue};
+  --global-footer-bg-color: #{variables.$grey-color-dark};
+  --global-footer-text-color: #{variables.$grey-color-light};
+  --global-footer-link-color: #{variables.$white-color};
+  --global-distill-app-color: #{variables.$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-publication-year-color: rgba(0,0,0,.3);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{variables.$white-color};
 
   .fa-sun {
     display : none;
@@ -35,19 +37,19 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$dark-theme-green};
-  --global-hover-color: #{$dark-theme-green};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
+  --global-bg-color: #{variables.$grey-color-dark};
+  --global-code-bg-color: #{variables.$code-bg-color-dark};
+  --global-text-color: #{variables.$grey-color-light};
+  --global-text-color-light: #{variables.$grey-color-light};
+  --global-theme-color: #{variables.$dark-theme-green};
+  --global-hover-color: #{variables.$dark-theme-green};
+  --global-footer-bg-color: #{variables.$grey-color-light};
+  --global-footer-text-color: #{variables.$grey-color-dark};
+  --global-footer-link-color: #{variables.$black-color};
+  --global-distill-app-color: #{variables.$grey-color-light};
   --global-divider-color: #424246;
   --global-publication-year-color: rgba(255,255,255,.35);
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #{variables.$grey-900};
 
   .fa-sun {
     padding-left: 10px;
@@ -68,20 +70,20 @@ html[data-theme='dark'] {
 
 /* Light theme */
 :root {
-  --award-text-color: #{$light-theme-blue};
+  --award-text-color: #{variables.$light-theme-blue};
   --award-bg-color: transparent;
 }
 
 /* Dark theme */
 [data-theme="dark"] {
-  --award-text-color: #{$dark-theme-green};
+  --award-text-color: #{variables.$dark-theme-green};
   --award-bg-color: transparent;
 }
 
 /* Fallback if your site uses prefers-color-scheme */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --award-text-color: #{$dark-theme-green};
+    --award-text-color: #{variables.$dark-theme-green};
   }
 }
 

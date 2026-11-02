@@ -1,3 +1,5 @@
+@use "variables";
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
@@ -388,11 +390,11 @@ footer.sticky-bottom {
     .page-link {
       color: var(--global-text-color);
       &:hover {
-        color: $black-color;
+        color: variables.$black-color;
       }
     }
     &.active .page-link {
-      color: $white-color;
+      color: variables.$white-color;
       background-color: var(--global-theme-color);
       &:hover {
         background-color: var(--global-theme-color);
