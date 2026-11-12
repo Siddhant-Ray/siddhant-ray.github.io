@@ -173,7 +173,7 @@
           {%- if entry.talk %}
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
           {%- endif %}
-          {%- if entry.scholar_query or entry.scholar_url %}
+          {%- if entry.scholar_query or entry.scholar_url or entry.arxiv or entry.eprint %}
             <a
               href="https://scholar.google.com/scholar?q={{ entry.title | uri_escape }}"
               class="btn btn-sm z-depth-0 citation-btn d-none"

@@ -249,8 +249,8 @@
   },
   "ray2026internetkvcacherethinking": {
     "arxiv": "2608.01526",
-    "cited_by": 0,
-    "counting_method": "sum_matching_google_scholar_author_profile_rows",
+    "cited_by": 1,
+    "counting_method": "User-reported citation count correction",
     "doi": "",
     "matched_title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
     "query": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age Siddhant Ray and Nick Feamster and Junchen Jiang",
@@ -276,7 +276,7 @@
       }
     ],
     "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
-    "updated_at": "2026-11-09T04:13:34+00:00"
+    "updated_at": "2026-11-12T15:15:26+00:00"
   },
   "ray2026swiftqueueoptimizinglowlatencyapplications": {
     "arxiv": "2410.06112",
