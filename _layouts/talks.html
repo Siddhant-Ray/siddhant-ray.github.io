@@ -14,6 +14,13 @@ layout: default
     {{ content }}
 
     <style>
+      .talk-title-link,
+      .talk-title-link:visited,
+      .talk-title-link:hover,
+      .talk-title-link:focus {
+        color: inherit;
+      }
+
       .talk-type-badge {
         display: inline-block;
         padding: 0.32rem 0.8rem;
@@ -29,24 +36,31 @@ layout: default
 
     {% assign items = page.talks | default: empty %}
     {% if items and items.size > 0 %}
-      {% assign sorted = items | sort: "month_order" | sort: "year" | reverse %}
-
-      {% assign current_year = nil %}
-      {% for t in sorted %}
-        {% if t.year != current_year %}
-          {% assign current_year = t.year %}
-          <h2 class="mt-4">{{ current_year }}</h2>
+      {% assign years = items | map: "year" | uniq | sort | reverse %}
+      {% for year in years %}
+          <h2 class="mt-4">{{ year }}</h2>
           <hr>
-        {% endif %}
+        {% assign year_talks = items | where: "year", year | sort: "month_order" | reverse %}
+        {% for t in year_talks %}
 
         <div class="row mb-3 align-items-start">
           <div class="col-sm-3">
             {% if t.type %}
-              <span class="talk-type-badge">{{ t.type | capitalize | replace: "Guest lecture", "Guest Lecture" | replace: "Research talk", "Research Talk" | replace: "Lightning talk", "Lightning Talk" }}</span>
+              <span class="talk-type-badge">{{ t.type | capitalize | replace: "Guest lecture", "Guest Lecture" | replace: "Research talk", "Research Talk" | replace: "Lightning talk", "Lightning Talk" | replace: "Invited talk", "Invited Talk" }}</span>
             {% endif %}
           </div>
 
           <div class="col-sm-9">
+            {% if t.title %}
+              <div class="font-weight-bold">
+                {% if t.url %}
+                  <a class="talk-title-link" href="{{ t.url | escape }}">{{ t.title | escape }}</a>
+                {% else %}
+                  {{ t.title | escape }}
+                {% endif %}
+              </div>
+            {% endif %}
+
             {% if t.event %}
               <div>{{ t.event }}</div>
             {% endif %}
@@ -74,6 +88,7 @@ layout: default
             {% endif %}
           </div>
         </div>
+        {% endfor %}
       {% endfor %}
     {% else %}
       <p>No talks listed yet.</p>

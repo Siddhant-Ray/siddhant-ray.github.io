@@ -192,6 +192,9 @@
           {%- if entry.deployment_name %}
             <a class="btn btn-sm z-depth-0 award-badge" role="button"><span class="award-icon" aria-hidden="true">🏆</span>{{ entry.deployment_name }}</a>
           {%- endif %}
+          {%- if entry.presented_at and entry.presentation_url %}
+            <a href="{{ entry.presentation_url | escape }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-microphone-alt mr-1" aria-hidden="true"></i>Presented at {{ entry.presented_at | escape }}</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
