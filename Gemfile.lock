@@ -56,7 +56,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.10.1)
-    feedjira (4.0.3)
+    feedjira (4.0.4)
       logger (>= 1.0, < 2)
       loofah (>= 2.3.1, < 3)
       sax-machine (>= 1.0, < 2)
@@ -332,7 +332,7 @@ CHECKSUMS
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
   eventmachine (1.2.7) sha256=994016e42aa041477ba9cff45cbe50de2047f25dd418eba003e84f0d16560972
   execjs (2.10.1) sha256=abe0ae028467eb8e30c10814eb934d07876a691aae7e803d813b7ce5a75e73f1
-  feedjira (4.0.3) sha256=43a916dd278085025a1b1c76cbb8776311656cfe57374b40f3938dd7a4c8e587
+  feedjira (4.0.4) sha256=d347dd3628ec5450e2fedb2b3ad2487f01359c939f58ad5bae2f7272ea23e27d
   ffi (1.17.4) sha256=bcd1642e06f0d16fc9e09ac6d49c3a7298b9789bcb58127302f934e437d60acf
   ffi (1.17.4-aarch64-linux-gnu) sha256=b208f06f91ffd8f5e1193da3cae3d2ccfc27fc36fba577baf698d26d91c080df
   ffi (1.17.4-aarch64-linux-musl) sha256=9286b7a615f2676245283aef0a0a3b475ae3aae2bb5448baace630bb77b91f39
